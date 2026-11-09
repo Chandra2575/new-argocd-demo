@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: nginx
+          image: shaikmuustafa/mygame
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
